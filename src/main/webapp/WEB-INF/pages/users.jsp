@@ -5,7 +5,7 @@
 <%@ page session="false" %>
 <html>
 <head>
-    <title>Books Page</title>
+    <title>Users Page</title>
 
     <style type="text/css">
         .tg {
@@ -52,7 +52,7 @@
 <br/>
 <br/>
 
-<h1>Book List</h1>
+<h1>Users List</h1>
 
 <c:if test="${!empty listUsers}">
     <table class="tg">
